@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>DS | STACKS</title>
+        <link rel="shortcut icon" type="image/png" href="../Images/favicon.png">
+        <link rel="stylesheet" href="../CSS/css/bootstrap.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../CSS/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <a href="../index.html" class="navbar-brand">DS</a>
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../topics.html" class="nav-link">Topics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sorting.html" class="nav-link active">Sorting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../about.html" class="nav-link">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="jumbotron text-center jumbo-stack">
+            <p class="jumbo-size" id="display"></p>
+        </div>
+        <div class="container row text-center div-left">
+            <div class="col-md-12">
+                <p class="" id="sorted"></p><br><br>
+                <form class="form-inline form-left">
+                    <div class="form-group mx-sm-3 mb-2">
+                        <input type="text" class="form-control" id="unsorted" placeholder="Enter comma separated numbers" value="">
+                    </div>
+                    <button id="addBtn" class="btn btn-primary mb-2">Sort</button>
+                </form>
+                <p id=""></p>
+            </div>
+        </div>
+        <script type="text/javascript" src="../JS/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../JS/js/bootstrap.js"></script>
+        <script type="text/javascript" src="../JS/mergeSort.js"></script>
+    </body>
+</html>
